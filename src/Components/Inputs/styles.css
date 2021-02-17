@@ -1,0 +1,61 @@
+h5 {
+    color: #003d6c;
+    margin: 30px 3px 3px;
+    font-size: 15px;
+}
+
+.inputcomponents {
+    background-color: #f1f6f5;
+    padding: 10px;
+    padding-top: 0;
+    font-weight: 600;
+    min-width: 360px;
+}
+
+.inputcomponents__error {
+    color: #6f0000;
+    font-size: 12px;
+    transition: all 0.5s ease-in-out;
+}
+
+.inputcomponents__correct {
+    color: rgba(0, 111, 11, 0.9);
+}
+
+.MuiInputBase-input {
+    font-weight: bold !important;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #1d9079 !important;
+    opacity: 0.6 !important;
+    font-weight: bold !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #1d9079 !important;
+    opacity: 0.6 !important;
+    font-weight: bold !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #1d9079 !important;
+    opacity: 0.6 !important;
+    font-weight: bold !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #1d9079 !important;
+    opacity: 0.6 !important;
+    font-weight: bold !important;
+}
+
+.mid__container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 450px;
+    background-image: url('../../img/mars.jpg');
+}
+
+.inputComponents__button {
+    margin-top: 20px;
+}
